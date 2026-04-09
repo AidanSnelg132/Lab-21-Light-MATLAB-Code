@@ -17,10 +17,10 @@ figure
 plot(time, measurements, '-', 'LineWidth', 0.7)
 hold on
 
-% Smoothed average curve
+% Smoothed data curve
 plot(time, smoothMeasurements, 'LineWidth', 2.5)
 
-% Horizontal line for full-night average
+% Average night lux line
 yline(nightAvg, '--', 'LineWidth', 1.5)
 
 % Labels and title
@@ -29,7 +29,7 @@ ylabel('Illuminance (lux)')
 title('Ambient Light Over Time')
 grid on
 
-% Optional axis limits
+% axis limits
 xlim([min(time) max(time)])
 
 % Legend
