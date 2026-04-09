@@ -1,0 +1,1 @@
+Please note, the example MATLAB code is designed to run with the example SD output text file which includes a tabulated lux value with a time stamp of when recordings started. Please ensure this file is accessible to MATLAB.
